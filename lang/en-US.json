@@ -1,0 +1,37 @@
+{
+    "lang":"en-US",
+    "common": {
+        "error":
+        {
+            "working":"Página en progreso. Regresa pronto"
+        },
+        "nav": {
+            "logo": {
+                "panel": "Control panel",
+                "company": "Digysoft"
+            },
+            "sell_btn": "Sell",
+            "items": {
+                "resume": "Resume",
+                "reports": "Reports",
+                "vouchers": "Digital Vouchers",
+                "sells": "Sells Made",
+                "products": "Products",
+                "inventory": "Inventory",
+                "configuration": "Configuration",
+                "licence": "Licence",
+                "logout": "Logut"
+            }
+        }
+    },
+    "pages": {
+        "dashboard": {
+            "body": {
+                "main": {
+                    "center1": "Welcome to your Control panel",
+                    "center2": "Select an option on the nav list to start"
+                }
+            }
+        }
+    }
+}
