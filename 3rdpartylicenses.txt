@@ -32,6 +32,9 @@ MIT
 @angular/core
 MIT
 
+@angular/localize
+MIT
+
 @angular/material
 MIT
 The MIT License
