@@ -1,0 +1,248 @@
+{
+    "pages":
+    {
+        "resume":
+        {
+            "buttons":
+            {
+                "today": "Hoy",
+                "excel": "Exportar por Excel",
+                "pdf": "Exportar por PDF"
+            },
+            "inputs":
+            {
+                "from_date": "Desde",
+                "to_date": "Hasta",
+                "filter_by_user": "Usuarios",
+                "filter_by_voucher": "Comprobantes"
+            },
+            "tabs":
+            {
+                "resume":
+                {
+                    "tabname": "Resumen de Ventas",
+                    "title": "Reporte de Resumen de Ventas",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "user":
+                {
+                    "tabname": "Ventas por Usuario",
+                    "title": "Reporte de Ventas por Usuario",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "voucher":
+                {
+                    "tabname": "Ventas por Comprobantes",
+                    "title": "Reporte de Ventas por Comprobantes",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                }
+            }
+        }
+    },
+    "subpages":
+    {
+        "summary":
+        {
+            "filter":
+            {
+                "users": "Usuario",
+                "vouchers": "Comprobantes"
+            },
+            "tabs":
+            {
+                "sales_summary":
+                {
+                    "tabname": "Resumen de Ventas",
+                    "title": "Reporte de Resumen de Ventas",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "sales_user": 
+                {
+                    "tabname":"Ventas por Usuario",
+                    "title": "Reporte de Ventas por Usuario",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "sales_voucher": 
+                {
+                    "tabname":"Ventas por Comprobante",
+                    "title": "Reporte de Ventas por Comprobante",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                }
+            }
+        },
+        "credits_charge":
+        {
+            "title": "Resumen de Reporte Cuentas por Cobrar",
+            "total": "Total",
+            "table":
+            {
+                "client": "Cliente",
+                "phone": "Teléfono",
+                "balance": "Saldo (S/.)"
+            }
+        },
+        "products":
+        {
+            "tabs":
+            {
+                "inventory":
+                {
+                    "tabname":"Inventario",
+                    "title":"Reporte General de Inventario",
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "product_cost": "P.Costo",
+                        "product_sale": "P.Venta",
+                        "stock": "Stock",
+                        "import": "Importe(S/.)"
+                    }
+                },
+                "expired_products":
+                {
+                    "tabname":"Productos Vencidos",
+                    "title":"Reporte de Productos Vencidos",
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "expiration_date": "Fecha de vencimiento"
+                    }
+                },
+                "low_stock":
+                {
+                    "tabname":"Stock Bajo",
+                    "title":"Reporte de Stock Bajo",
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "product_cost": "P.Costo",
+                        "category": "Categoria",
+                        "quantity": "Cantidad",
+                        "minimum_stock": "Stock minimo"
+                    }
+                }
+            }
+        },
+        "sell_register":
+        {
+            "date_selector":
+            {
+                "text":"Seleccione mes y año",
+                "month":"Mes",
+                "year":"Año"
+            },
+            "title":"Registro de Ventas del mes de ",
+            "tabs":
+            {
+                "register":
+                {
+                    "tabname":"Registro",
+                    "table":
+                    {
+                        "date":"Fecha",
+                        "tp":"TP",
+                        "serial":"Serie",
+                        "number":"Número",
+                        "ruc_dni":"RUC/DNI",
+                        "name_social":"Nombre/Razon Social",
+                        "me":"M.E.",
+                        "tc":"T/C",
+                        "sale":"V.Venta",
+                        "igv":"I.G.V",
+                        "product_sale":"P.Venta",
+                        "total":"Total General"
+                    }
+                },
+                "reference":
+                {
+                    "tabname":"Referencia del Comprobante de Pago o Documento Original Modificado",
+                    "table":
+                    {
+                        "date":"Fecha",
+                        "tp":"TP",
+                        "serial":"Serie",
+                        "number":"Número",
+                        "import_base":"Importe Base",
+                        "igv":"I.G.V"
+                    }
+                }
+            }
+        },
+        "sunat_register":
+        {
+            "date_selector":
+            {
+                "text":"Seleccione mes y año",
+                "month":"Mes",
+                "year":"Año"
+            },
+            "title":"Registros CPE SUNAT del mes de ",
+            "table":
+            {
+                "date":"Fecha",
+                "tp":"TP",
+                "serial":"Serie",
+                "number":"Número",
+                "ruc_dni":"RUC/DNI",
+                "name_social":"Nombre/Razon Social",
+                "pay_method":"Metodo de pago",
+                "currency": "Moneda",
+                "amount":"Importe",
+                "tc":"T/C",
+                "balance":"Saldo (S/.)",
+                "state":"Estado",
+                "expiration_date":"Fecha de vencimiento",
+                "mail":"Mail",
+                "xml":"XML",
+                "cashier":"Cajero",
+                "xml_file":"Archivo XML",
+                "sunat_response":"Respuesta SUNAT",
+                "result":"Resultado"
+            }
+        }
+    },
+    "footer":
+    {
+        "generated": "Reporte generado por",
+        "visit": "visita"
+    }
+}

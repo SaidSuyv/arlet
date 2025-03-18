@@ -1,0 +1,14 @@
+{
+    "info": {
+        "charge": "Cuentas por cobrar",
+        "pay": "Cuentas por pagar",
+        "profit": "Ganancia",
+        "low_stock": "Stock bajo",
+        "clients_number": "Nro. Clientes",
+        "products_number": "Nro. Productos"
+    },
+    "total_profit": "Total ganancia",
+    "total_sales": "Total ventas",
+    "most_sold_products": "Los 5 productos más vendidos",
+    "linear_bar_legend": "Monto total"
+}

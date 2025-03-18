@@ -1,0 +1,35 @@
+{
+    "info": {
+        "charge": "Cuentas por cobrar",
+        "pay": "Cuentas por pagar",
+        "profit": "Ganancia",
+        "low_stock": "Stock bajo",
+        "clients_number": "Nro. Clientes",
+        "products_number": "Nro. Productos"
+    },
+    "graph":
+    {
+        "linear":
+        {
+            "buttons":
+            {
+                "today": "Hoy"
+            },
+            "inputs":
+            {
+                "from_date": "Desde",
+                "to_date": "Hasta"
+            },
+            "info":
+            {
+                "total_profit": "Total ganancia",
+                "total_sales": "Total ventas"
+            },
+            "legend": "Monto total"
+        },
+        "pie":
+        {
+            "title": "Los 5 productos más vendidos"
+        }
+    }
+}

@@ -1,0 +1,3 @@
+<?php
+
+echo "{\"info\": {\"profit\": \"7000.00\",\"low_stock\": 2,\"clients_number\": 10,\"products_number\": 65},\"graph\":{\"linear\":{\"info\":{\"total_profit\": \"1.00\",\"total_sales\": \"15.00\"},\"data\": [{\"date\": \"Nov 2024\",\"text\": \"0.00\"},{\"date\": \"Nov 2024\",\"text\": \"15.00\"}]},\"pie\":[{\"name\": \"SILLA FIESTA S/BRAZO REY\",\"count\": 106},{\"name\": \"TAPER CUADRADO 1 KG PARISPLAST T-C\",\"count\": 120},{\"name\": \"VASO FACETADO PARIS PLAST\",\"count\": 120},{\"name\": \"JARRA LIZ 2.5 LT JORPLAST\",\"count\": 200},{\"name\": \"PAPELERO MADRID #18 JORPLAST\",\"count\": 93}]}}";

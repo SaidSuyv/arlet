@@ -1,0 +1,23 @@
+{
+    "inputs":
+    {
+        "search_voucher": "Search by voucher"
+    },
+    "table":
+    {
+        "date": "Date",
+        "voucher": "Voucher",
+        "amount": "Total"
+    },
+    "viewer":
+    {
+        "idle":
+        {
+            "title": "Select a sale from the list to visualize"
+        },
+        "cancelled": 
+        {
+            "title": "CANCELLED SALE"
+        }
+    }
+}

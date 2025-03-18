@@ -1,0 +1,42 @@
+{
+    "pdf_values":
+    {
+        "client_name": "Cliente",
+        "client_doc_num": "N° de documento",
+        "client_address": "Domicilio Fiscal",
+
+        "cashier": "Cajero",
+
+        "voucher_pay_type": "Condiciones Pago",
+        "voucher_issue_date": "Fecha emisión",
+        "voucher_validation_offer": "Validez de oferta",
+
+        "doc_ref_title": "Doc. Referencia",
+        "doc_reason": "Motivo",
+        "doc_ref_reference": "Referencia",
+        "doc_issue_date": "Fecha de emisión",
+
+        "product_code": "Código",
+        "product_description": "Descripción",
+        "product_unit": "Unidad",
+        "product_quantity": "Cantidad",
+        "product_u_value": "Valor Unitario",
+        "product_sale_value": "Valor Venta",
+
+        "checkout_price_txt": "SON",
+        "checkout_subtotal": "SUB TOTAL",
+        "checkout_discount": "Descuento",
+        "checkout_total": "TOTAL",
+        "checkout_product_quantity": "Cantidad de Productos",
+        "checkout_cash": "Efectivo",
+        "checkout_change": "Vuelto",
+        "checkout_transfer": "Transferencia",
+        "checkout_card": "Tarjeta",
+        "checkout_remaining": "Saldo por pagar"
+    },
+    "error": {
+        "working": "Página en mantenimiento. Pronto estará listo",
+        "network": "Hubo un error inesperado con la conexión.",
+		"general": "Lo sentimos, tuvimos un problema inesperado.."
+    }
+}

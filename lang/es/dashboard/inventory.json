@@ -1,0 +1,15 @@
+{
+    "tabs":
+    {
+        "kardex":"Kardex",
+        "transactions": "Movimientos",
+        "low_inventory":"Inventarios Bajos",
+        "inventory_report":"Reporte Inventarios",
+        "product_expiration": "Vencimiento de Productos"
+    },
+    "actions":
+    {
+        "input":"Entrada",
+        "output":"Salida"
+    }
+}

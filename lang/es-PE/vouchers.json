@@ -1,0 +1,350 @@
+{
+    "pages":
+    {
+        "bills":
+        {
+            "title":"Facturas",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"FACTURA ACEPTADA"
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"FACTURA PENDIENTE"
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"FACTURA RECHAZADA"
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"FACTURA ANULADA"
+                }
+            }
+        },
+        "sales_slips":
+        {
+            "title":"Boleta de Venta",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"BOLETA DE VENTA ACEPTADA"
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"BOLETA DE VENTA PENDIENTE"
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"BOLETA DE VENTA RECHAZADA"
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"BOLETA DE VENTA ANULADA"
+                }
+            }
+        },
+        "credit_notes":
+        {
+            "title":"Notas de Credito",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE CREDITO ACEPTADA"
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE CREDITO PENDIENTE"
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE CREDITO RECHAZADA"
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE CREDITO ANULADA"
+                }
+            }
+        },
+        "debit_notes":
+        {
+            "title":"Notas de Debito",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE DEBITO ACEPTADA"
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE DEBITO PENDIENTE"
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE DEBITO RECHAZADA"
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"NOTA DE DEBITO ANULADA"
+                }
+            }
+        },
+        "term_notice":
+        {
+            "title":"Comunicacion de Baja",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"COMM. DE BAJA ACEPTADA"
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"COMM. DE BAJA PENDIENTE"
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"COMM. DE BAJA RECHAZADA"
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    },
+                    "file_title":"COMM. DE BAJA ANULADA"
+                }
+            }
+        }
+    }
+}

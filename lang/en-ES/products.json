@@ -1,0 +1,221 @@
+{
+    "info":
+    {
+        "quantity":"Products quantity",
+        "inventory_cost": "Inventory cost"
+    },
+    "buttons":
+    {
+        "new_product": "New Product",
+        "view_product": "View product",
+        "delete_product": "Delete Product",
+        "edit_product": "Edit Product"
+    },
+    "filter":
+    {
+        "search": "Search by code / product name",
+        "rows": "Rows"
+    },
+    "table":
+    {
+        "code": "Code",
+        "description": "Description",
+        "tax":"Tax",
+        "p_buy":"P. Buy",
+        "p_wholesale":"P. by Wholesale",
+        "min_stock":"Min Stock",
+        "expiration":"Expiration",
+        "stock": "Stock",
+        "p_sale": "P. Sale"
+    },
+    "modal":
+    {
+        "view":
+        {
+            "text":
+            {
+                "title":"Product Information",
+                "code": "Item Code",
+                "description": "Description",
+                "tax":"Tax",
+                "p_buy":"P. Buy",
+                "p_wholesale":"P. by Wholesale",
+                "min_stock":"Min Stock",
+                "expiration":"Expiration",
+                "stock": "Stock",
+                "p_sale": "P. Sale"
+            },
+            "buttons":
+            {
+                "close":"Close"
+            }
+        },
+        "delete":
+        {
+            "prompt":"Are you sure to delete {id_code}?"
+        },
+        "edit":
+        {
+            "title": "Edit Product Information",
+            "item_code": "Item Code",
+            "buttons":
+            {
+                "save":"Save",
+                "cancel":"Cancel"
+            }
+        },
+        "import":
+        {
+            "title":"Import Products",
+            "step": "Step",
+            "stepper":
+            [
+                "Download template",
+                "Upload file .csv",
+                "Import data"
+            ],
+            "actions":
+            {
+                "next":"Next",
+                "back":"Back",
+                "cancel":"Cancel",
+                "import":"Import"
+            },
+            "download":
+            {
+                "subtitle":"Download the template, add your products and save it with a .csv extension"
+            },
+            "upload":
+            {
+                "note":"IMPORTANT: Only files with .csv extension and \";\" as delimiter are accepted. Check before upload to avoid bugs or explicit drop of procedure.",
+                "drag_drop":
+                {
+                    "text":"Drag & drop your product file .csv here",
+                    "or":"or",
+                    "import":"Click here to upload your file"
+                },
+                "over":
+                {
+                    "file":"File detected",
+                    "drop":"Drop your file for upload"
+                }
+            },
+            "import":
+            {
+                "ready":"Ready for import",
+                "not_ready":"None file has been uploaded"
+            }
+        },
+        "add_new":
+        {
+            "title":"Add new Product",
+            "buttons":
+            {
+                "keep_adding":"Keep adding products",
+                "save":"Save",
+                "cancel":"Cancel"
+            },
+            "form":
+            {
+                "select_type":
+                {
+                    "label":"Select a type",
+                    "options":
+                    {
+                        "unit":"Unit",
+                        "granel":"Granel"
+                    }
+                },
+                "description":
+                {
+                    "label":"Description"
+                },
+                "cost_price":
+                {
+                    "label":"Cost Price",
+                    "apply_commission":"Apply comission per sale"
+                },
+                "profit":
+                {
+                    "label":"Profit"
+                },
+                "sale_price":
+                {
+                    "label":"Sale price"
+                },
+                "wholesale_price":
+                {
+                    "label":"Wholesale price",
+                    "label2":"Apply from",
+                    "postinput2":"Unit(s)"
+                },
+                "group":
+                {
+                    "label":"Group",
+                    "buttons":
+                    {
+                        "add_group":"Add group"
+                    }
+                },
+                "code":
+                {
+                    "label":"Code",
+                    "generate":"Generate automatically"
+                },
+                "inventory_control":
+                {
+                    "label":"Inventory Control",
+                    "options":
+                    {
+                        "y":"yes",
+                        "n":"no"
+                    }
+                },
+                "exist":
+                {
+                    "label":"Exist"
+                },
+                "minimum":
+                {
+                    "label":"Minimum"
+                },
+                "expiration_date":
+                {
+                    "label":"Expiration date",
+                    "no_apply":"Doesn't apply"
+                },
+                "measure_unit":
+                {
+                    "label":"Measurement Unit"
+                },
+                "product_code":
+                {
+                    "label":"Product code"
+                },
+                "igv":
+                {
+                    "label":"IGV",
+                    "options":
+                    {
+                        "y":"yes",
+                        "n":"no"
+                    }
+                },
+                "icbper":
+                {
+                    "label":"ICBPER",
+                    "options":
+                    {
+                        "y":"yes",
+                        "n":"no"
+                    }
+                },
+                "load_image":
+                {
+                    "label":"Upload image"
+                }
+            }
+            
+        }
+    }
+}
