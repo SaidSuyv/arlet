@@ -106,7 +106,7 @@ class cCompany extends cArlet
 
       return true;
     }
-    else die();
+    else $this->set_error("Couldn't create company");
   }
 
   public function f_get_data()

@@ -1,6 +1,6 @@
 <FilesMatch "\.json$">
     <IfModule mod_headers.c>
-        SetEnvIf Origin "http(s)?://(localhost|localhost:5173|localhost:8080|192.168.1.104:5173|192.168.1.104:8080)$" AccessControlAllowOrigin=$0
+        SetEnvIf Origin "http(s)?://(localhost|18.191.212.248|arlet.duckdns.org)$" AccessControlAllowOrigin=$0
         Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
         Header merge Vary Origin
     </IfModule>

@@ -1,0 +1,3 @@
+[submodule "global"]
+	path = global
+	url = https://github.com/SaidSuyv/php_api

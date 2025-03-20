@@ -57,7 +57,7 @@ class cUser extends cArlet
       $company = $this->cAuth->f_get_company();
 
       if( $id == null || $company == null )
-        $this->set_error("SERVER ERROR: There was an unexpected error in the server. Please try again later.");
+        return $this->set_error("SERVER ERROR: There was an unexpected error in the server. Please try again later.");
 
       $n = $this->cDatabase->execute(
         "SELECT b_new AS 'n' , IF( f_role = 1 , 1 , 0 ) AS 'a' FROM user WHERE id = :id AND f_company = :company;",
@@ -67,7 +67,7 @@ class cUser extends cArlet
 
       return json_encode( $n , true );
     }
-    else $this->cAuth->set_error();
+    else return $this->cAuth->set_error();
   }
 
   public function f_get()
