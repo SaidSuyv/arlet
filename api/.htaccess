@@ -1,9 +1,0 @@
-<FilesMatch "\.php$">
-  <IfModule mod_headers.c>
-      SetEnvIf Origin "^https?://(arlet\.duckdns\.org)$" AccessControlAllowOrigin=$0
-      Header set Access-Control-Allow-Origin "%{AccessControlAllowOrigin}e" env=AccessControlAllowOrigin
-  </IfModule>
-  Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
-  Header set Access-Control-Allow-Headers "Content-Type"
-  Header set Access-Control-Allow-Credentials "true"
-</FilesMatch>
