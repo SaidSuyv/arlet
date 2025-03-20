@@ -1,3 +1,9 @@
 [submodule "global"]
 	path = global
 	url = https://github.com/SaidSuyv/php_api
+[submodule "api"]
+	path = api
+	url = https://github.com/SaidSuyv/arlet-api
+[submodule "lang"]
+	path = lang
+	url = https://github.com/SaidSuyv/arlet-lang
